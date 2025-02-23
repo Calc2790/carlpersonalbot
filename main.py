@@ -1,9 +1,11 @@
-
 import discord
 import os
 import requests
 import json
 from discord import Intents
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Set up intents 
 def get_quote():
